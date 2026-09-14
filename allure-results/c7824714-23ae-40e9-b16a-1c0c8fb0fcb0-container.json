@@ -1,0 +1,1 @@
+{"uuid":"c7824714-23ae-40e9-b16a-1c0c8fb0fcb0","name":"HybridFrameworkSuite","children":["1c7ef775-31c5-4f0a-bc5f-8fe10f755abe"],"befores":[{"name":"initSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1789407251000,"stop":1789407253157}],"afters":[],"start":1789407250958,"stop":1789407261632}
