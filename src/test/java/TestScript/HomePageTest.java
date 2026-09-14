@@ -8,9 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.openqa.selenium.chrome.ChromeOptions;
+import Listeners.TestListener;
 
 import java.time.Duration;
-
+@Listeners(TestListener.class)
 public class HomePageTest {
     WebDriver driver;
     HomePageObjects hpo;
@@ -26,6 +27,7 @@ public class HomePageTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");
         driver = new ChromeDriver(options);
+        TestListener.driver = driver;
     }
 
     @BeforeTest
